@@ -87,6 +87,7 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 ## CTF
 
+- [PromptTrace](https://prompttrace.airedlab.com/) - Free AI security training platform with 7 hands-on prompt injection labs and a 15-level CTF (the Gauntlet) with progressively harder defenses — from prompt-level rules to code guards to LLM classifiers. Unique feature: Context Trace shows the full prompt stack (system prompt, RAG documents, tool definitions, user input) in real-time so you can see exactly how attacks work. Uses real LLMs from OpenAI, Anthropic, Google, Groq, and Cerebras.
 - [Gandalf](https://gandalf.lakera.ai/) - Your goal is to make Gandalf reveal the secret password for each level. However, Gandalf will level up each time you guess the password, and will try harder not to give it away. Can you beat level 7? (There is a bonus level 8).
 - [ChatGPT with Browsing is drunk! There is more to it than you might expect at first glance](https://twitter.com/KGreshake/status/1664420397117317124) - This riddle requires you to have ChatGPT Plus access and enable the Browsing mode in Settings->Beta Features.
 - [Damn Vulnerable LLM Agent](https://github.com/WithSecureLabs/damn-vulnerable-llm-agent) - A sample chatbot powered by a ReAct agent, implemented with Langchain. It's designed to be an educational tool for security researchers, developers, and enthusiasts to understand and experiment with prompt injection attacks in ReAct agents.
