@@ -72,18 +72,12 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 - [Token Turbulenz](https://github.com/wunderwuzzi23/token-turbulenz) - A fuzzer to automate looking for possible Prompt Injections.
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
-- [InjectLab](https://github.com/ahow2004/injectlab) - A MITRE-style matrix of adversarial prompt injection techniques with mitigations and real-world examples
-- [openclaw-bastion](https://github.com/AtlasPA/openclaw-bastion) - Open-source prompt injection defense for AI agent workspaces. Detects system prompt markers, role overrides, instruction injection, Unicode homoglyphs, directional overrides, and hidden instructions in HTML comments. Part of the OpenClaw Security Suite (11 tools). Pure Python stdlib, zero dependencies.
-- [BodAIGuard](https://github.com/AxonLabsDev/BodAIGuard) - Universal AI agent guardrail with 3-tier prompt injection detection (regex, heuristics, structural analysis), 42 block rules, and 4 enforcement modes
 - [PIC Standard](https://github.com/madeinplutofabio/pic-standard) - Protocol to block unauthorized or unproven agent actions via intent + provenance checks. Mitigates prompt injection & side-effect risks. Open-source (Apache 2.0).
 - [Augustus](https://www.praetorian.com/blog/introducing-augustus-open-source-llm-prompt-injection/) - Feb 2026 open-source tool from Praetorian. A single Go binary with 210+ vulnerability probes across 47 attack categories, 28 LLM providers, 90+ detectors, and 7 payload transformation buffs. Built for penetration testing workflows without Python/npm dependencies.
 - [Spikee](https://labs.withsecure.com/tools/spikee) - WithSecure's open-source toolkit for building custom injection datasets and running automated tests against specific LLM application features; integrates with Burp Suite Intruder for black-box assessments.
 - [Vigil LLM](https://github.com/deadbits/vigil-llm) - Python library and REST API with composable stacked scanners: vector similarity, YARA rules, transformer classifier, canary token detection, and sentiment analysis — designed for defence-in-depth in production.
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
-- [Sentinel AI](https://github.com/MaxwellCalkin/sentinel-ai) - Real-time prompt injection detection across 12 languages with sub-millisecond regex-based scanning (no GPU or API calls required). Detects obfuscation techniques (base64, hex, ROT13, leetspeak), Claude Code attack vectors (HTML comment injection, authority impersonation, zero-width character smuggling), and includes an MCP safety proxy for transparent guardrails on any MCP server.
-- [AgentSeal](https://github.com/agentseal/agentseal) - Open-source scanner that runs 150 attack probes against AI agents to test for prompt injection and extraction vulnerabilities. Supports OpenAI, Anthropic, Ollama, and any HTTP endpoint. Available as npm and pip   
-  package.  
 
 ## CTF
 
