@@ -72,12 +72,9 @@ The severity of a prompt injection attack can vary, influenced by factors like t
 
 ## Tools
 
-- [Token Turbulenz](https://github.com/wunderwuzzi23/token-turbulenz) - A fuzzer to automate looking for possible Prompt Injections.
 - [Garak](https://github.com/leondz/garak) - Automate looking for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses in LLM's.
 - [PIC Standard](https://github.com/madeinplutofabio/pic-standard) - Protocol to block unauthorized or unproven agent actions via intent + provenance checks. Mitigates prompt injection & side-effect risks. Open-source (Apache 2.0).
 - [Augustus](https://www.praetorian.com/blog/introducing-augustus-open-source-llm-prompt-injection/) - Feb 2026 open-source tool from Praetorian. A single Go binary with 210+ vulnerability probes across 47 attack categories, 28 LLM providers, 90+ detectors, and 7 payload transformation buffs. Built for penetration testing workflows without Python/npm dependencies.
-- [Spikee](https://labs.withsecure.com/tools/spikee) - WithSecure's open-source toolkit for building custom injection datasets and running automated tests against specific LLM application features; integrates with Burp Suite Intruder for black-box assessments.
-- [Vigil LLM](https://github.com/deadbits/vigil-llm) - Python library and REST API with composable stacked scanners: vector similarity, YARA rules, transformer classifier, canary token detection, and sentiment analysis — designed for defence-in-depth in production.
 - [InjecGuard](https://github.com/safolab-wisc/injecguard) - Open-source prompt guard with published training data; achieves +30.8% over prior state-of-the-art on the NotInject benchmark, specifically addressing overdefense false positives that break legitimate use cases.
 - [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) - Actively maintained catalog of every practical defense in production — LLM Guard, Rebuff, architectural controls — the fastest way to survey the defense landscape.
 - [brood-box](https://github.com/stacklok/brood-box) - Hardware-isolated microVM sandbox for running coding agents (Claude Code, Codex, OpenCode) with workspace snapshot isolation, DNS-aware egress control, and MCP authorization profiles to contain damage from prompt injection attacks.
